@@ -300,7 +300,6 @@ function buscarNumero() {
   }, 100);
 }
 
-function comprar() {
 
   if (seleccionados.length === 0) {
 
@@ -309,13 +308,13 @@ function comprar() {
     return;
   }
 
-  alert(
+  
     "Has seleccionado " +
     seleccionados.length +
     " boleto(s).\n\nTotal: $" +
     (seleccionados.length * precio) +
     " pesos."
-  );
+  
 }
 
 mostrarNumeros(1, 100);
