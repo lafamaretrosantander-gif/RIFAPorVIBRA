@@ -1,2 +1,7 @@
-# RIFAPorVIBRA
-PLATAFORMA DIGITAL PARA COMORAR &amp; CONSULTAR BOLETOS DE RIFAPorVIBRA
+alert(
+  "Has seleccionado " +
+  seleccionados.length +
+  " boleto(s).\n\nTotal: $" +
+  (seleccionados.length * precio) +
+  " pesos."
+);
